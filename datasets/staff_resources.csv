@@ -1,0 +1,3 @@
+id,duration,cost,min_avail,max_avail
+fix,5,150,10,40
+temp,1,60,0,50

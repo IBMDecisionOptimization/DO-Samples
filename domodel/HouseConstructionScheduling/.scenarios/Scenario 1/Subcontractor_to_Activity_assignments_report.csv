@@ -1,0 +1,10 @@
+masonry,Joe,35,2018/01/03 00:00:00,35.0,2018/02/07 00:00:00,Activity ceiling,1,
+ceiling,Joe,15,2018/02/07 00:00:00,15.0,2018/02/22 00:00:00,Activity roofing,2,masonry
+carpentry,Jim,15,2018/02/07 00:00:00,15.0,2018/02/22 00:00:00,Activity painting,1,masonry
+plumbing,Jack,40,2018/02/07 00:00:00,40.0,2018/03/19 00:00:00,,1,masonry
+roofing,Joe,5,2018/02/22 00:00:00,5.0,2018/02/27 00:00:00,Activity windows,3,carpentry
+painting,Jim,10,2018/02/22 00:00:00,10.0,2018/03/04 00:00:00,Activity garden,2,ceiling
+windows,Joe,5,2018/02/27 00:00:00,5.0,2018/03/04 00:00:00,Activity facade,4,roofing
+garden,Jim,5,2018/03/19 00:00:00,5.0,2018/03/24 00:00:00,,3,"roofing, plumbing"
+facade,Joe,10,2018/03/19 00:00:00,10.0,2018/03/29 00:00:00,Activity moving,5,"roofing, plumbing"
+moving,Joe,5,2018/03/29 00:00:00,5.0,2018/04/03 00:00:00,,6,"windows, facade, garden, painting"

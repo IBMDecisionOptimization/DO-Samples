@@ -1,0 +1,34 @@
+[2018-05-25T16:09:15Z, INFO] WARNING: Number of workers has been reduced to 1 to comply with platform limitations.
+[2018-05-25T16:09:15Z, INFO] CPXPARAM_Read_DataCheck                          1
+[2018-05-25T16:09:15Z, INFO] CPXPARAM_Threads                                 1
+[2018-05-25T16:09:15Z, INFO] Tried aggregator 2 times.
+[2018-05-25T16:09:15Z, INFO] MIP Presolve eliminated 69 rows and 72 columns.
+[2018-05-25T16:09:15Z, INFO] Aggregator did 386 substitutions.
+[2018-05-25T16:09:15Z, INFO] Reduced MIP has 133 rows, 316 columns, and 3801 nonzeros.
+[2018-05-25T16:09:15Z, INFO] Reduced MIP has 0 binaries, 316 generals, 0 SOSs, and 0 indicators.
+[2018-05-25T16:09:15Z, INFO] Presolve time = 0.01 sec. (3.97 ticks)
+[2018-05-25T16:09:15Z, INFO] Found incumbent of value 4960.000000 after 0.02 sec. (8.83 ticks)
+[2018-05-25T16:09:15Z, INFO] Tried aggregator 1 time.
+[2018-05-25T16:09:15Z, INFO] Reduced MIP has 133 rows, 316 columns, and 3801 nonzeros.
+[2018-05-25T16:09:15Z, INFO] Reduced MIP has 0 binaries, 316 generals, 0 SOSs, and 0 indicators.
+[2018-05-25T16:09:15Z, INFO] Presolve time = 0.00 sec. (1.47 ticks)
+[2018-05-25T16:09:15Z, INFO] MIP emphasis: balance optimality and feasibility.
+[2018-05-25T16:09:15Z, INFO] MIP search method: dynamic search.
+[2018-05-25T16:09:15Z, INFO] Parallel mode: none, using 1 thread.
+[2018-05-25T16:09:15Z, INFO] Root relaxation solution time = 0.00 sec. (0.71 ticks)
+[2018-05-25T16:09:15Z, INFO] 
+[2018-05-25T16:09:15Z, INFO]         Nodes                                         Cuts/
+[2018-05-25T16:09:15Z, INFO]    Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+[2018-05-25T16:09:15Z, INFO] *     0+    0                         4960.0000     1000.0000            79.84%
+[2018-05-25T16:09:15Z, INFO] *     0     0      integral     0     4540.0000     4540.0000       61    0.00%
+[2018-05-25T16:09:15Z, INFO] Elapsed time = 0.02 sec. (11.57 ticks, tree = 0.00 MB
+[2018-05-25T16:09:15Z, INFO] , solutions = 2
+[2018-05-25T16:09:15Z, INFO] )
+[2018-05-25T16:09:15Z, INFO] 
+[2018-05-25T16:09:15Z, INFO] Root node processing (before b&c):
+[2018-05-25T16:09:15Z, INFO]   Real time             =    0.02 sec. (11.62 ticks)
+[2018-05-25T16:09:15Z, INFO] Sequential b&c:
+[2018-05-25T16:09:15Z, INFO]   Real time             =    0.00 sec. (0.00 ticks)
+[2018-05-25T16:09:15Z, INFO]                           ------------
+[2018-05-25T16:09:15Z, INFO] Total (root+branch&cut) =    0.02 sec. (11.62 ticks)
+[2018-05-25T16:09:15Z, INFO]   Feasible 4540

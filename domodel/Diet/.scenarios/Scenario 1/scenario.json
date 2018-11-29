@@ -1,0 +1,185 @@
+{
+  "qualifiers": [
+    {
+      "name": "modelType",
+      "value": "python"
+    },
+    {
+      "name": "modelMetadata",
+      "value": "{\"fileName\":\"model.py\",\"fileContent\":\"#dd-cell\\r\\nfood = inputs['diet_food']\\r\\nnutrients = inputs['diet_nutrients']\\r\\nfood_nutrients = inputs['diet_food_nutrients']\\r\\nfood_nutrients.set_index('Food', inplace=True)\\r\\n#dd-cell\\r\\nfrom docplex.mp.model import Model\\r\\n\\r\\n# Model\\r\\nmdl = Model(name='diet')\\r\\n\\r\\n# Create decision variables, limited to be >= Food.qmin and <= Food.qmax\\r\\nqty = food[['name', 'qmin', 'qmax']].copy()\\r\\nqty['var'] = qty.apply(lambda x: mdl.continuous_var(lb=x['qmin'],\\r\\n                                                    ub=x['qmax'],\\r\\n                                                    name=x['name']),\\r\\n                       axis=1)\\r\\n# make the name the index\\r\\nqty.set_index('name', inplace=True)\\r\\n\\r\\n# Limit range of nutrients, and mark them as KPIs\\r\\nfor n in nutrients.itertuples():\\r\\n    amount = mdl.sum(qty.loc[f.name]['var'] * food_nutrients.loc[f.name][n.name]\\r\\n                     for f in food.itertuples())\\r\\n    mdl.add_range(n.qmin, amount, n.qmax)\\r\\n    mdl.add_kpi(amount, publish_name='Total %s' % n.name)\\r\\n\\r\\n# Minimize cost\\r\\nmdl.minimize(mdl.sum(qty.loc[f.name]['var'] * f.unit_cost\\r\\n                     for f in food.itertuples()))\\r\\n\\r\\nmdl.print_information()\\r\\n#dd-markdown <h1>Solve</h1>\\r\\n#dd-cell\\r\\nok = mdl.solve()\\r\\n#dd-cell\\r\\nmdl.print_solution()\\r\\n#dd-markdown Make dataframe from solution\\r\\n#dd-cell\\r\\nimport pandas\\r\\nimport numpy\\r\\n\\r\\nsolution_df = pandas.DataFrame(columns=['name', 'value'])\\r\\n\\r\\nfor index, dvar in enumerate(mdl.solution.iter_variables()):\\r\\n    solution_df.loc[index,'name'] = dvar.to_string()\\r\\n    solution_df.loc[index,'value'] = dvar.solution_value\\r\\n#dd-cell\\r\\nsolution_df\\r\\n#dd-cell\\r\\noutputs['solution'] = solution_df\\r\\n\",\"lastUploadTime\":1513185308476}"
+    }
+  ],
+  "parentId": "diet",
+  "category": "scenario",
+  "creator": "frederic.pesquet@fr.ibm.com",
+  "createdAt": 1513185212242,
+  "usage": {
+    "lastModificationTime": 1513185314110,
+    "lastModifier": "frederic.pesquet@fr.ibm.com"
+  },
+  "dataUsagePerCategory": {
+    "input": {
+      "lastModificationTime": 1513185290076,
+      "lastModifier": "frederic.pesquet@fr.ibm.com"
+    },
+    "model": {
+      "lastModificationTime": 1513185308437,
+      "lastModifier": "frederic.pesquet@fr.ibm.com"
+    },
+    "output": {
+      "lastModificationTime": 1513185314110,
+      "lastModifier": "frederic.pesquet@fr.ibm.com"
+    }
+  },
+  "state": "available",
+  "tables": [
+    {
+      "tableType": {
+        "columns": [
+          {
+            "key": "name",
+            "dataType": "String"
+          },
+          {
+            "key": "qmin",
+            "dataType": "Number"
+          },
+          {
+            "key": "qmax",
+            "dataType": "Number"
+          }
+        ]
+      },
+      "name": "diet_nutrients",
+      "category": "input",
+      "lineage": "Copied from diet_nutrients.csv",
+      "numberOfRows": 7,
+      "creator": "frederic.pesquet@fr.ibm.com",
+      "createdAt": 1513185286739,
+      "lastUpdater": "frederic.pesquet@fr.ibm.com",
+      "updatedAt": 1513185286855,
+      "path": "diet_nutrients.csv"
+    },
+    {
+      "tableType": {
+        "columns": [
+          {
+            "key": "Food",
+            "dataType": "String"
+          },
+          {
+            "key": "Calories",
+            "dataType": "Number"
+          },
+          {
+            "key": "Calcium",
+            "dataType": "Number"
+          },
+          {
+            "key": "Iron",
+            "dataType": "Number"
+          },
+          {
+            "key": "Vit_A",
+            "dataType": "Number"
+          },
+          {
+            "key": "Dietary_Fiber",
+            "dataType": "Number"
+          },
+          {
+            "key": "Carbohydrates",
+            "dataType": "Number"
+          },
+          {
+            "key": "Protein",
+            "dataType": "Number"
+          }
+        ]
+      },
+      "name": "diet_food_nutrients",
+      "category": "input",
+      "lineage": "Copied from diet_food_nutrients.csv",
+      "numberOfRows": 9,
+      "creator": "frederic.pesquet@fr.ibm.com",
+      "createdAt": 1513185288749,
+      "lastUpdater": "frederic.pesquet@fr.ibm.com",
+      "updatedAt": 1513185288824,
+      "path": "diet_food_nutrients.csv"
+    },
+    {
+      "tableType": {
+        "columns": [
+          {
+            "key": "name",
+            "dataType": "String"
+          },
+          {
+            "key": "unit_cost",
+            "dataType": "Number"
+          },
+          {
+            "key": "qmin",
+            "dataType": "Number"
+          },
+          {
+            "key": "qmax",
+            "dataType": "Number"
+          }
+        ]
+      },
+      "name": "diet_food",
+      "category": "input",
+      "lineage": "Copied from diet_food.csv",
+      "numberOfRows": 9,
+      "creator": "frederic.pesquet@fr.ibm.com",
+      "createdAt": 1513185289999,
+      "lastUpdater": "frederic.pesquet@fr.ibm.com",
+      "updatedAt": 1513185290076,
+      "path": "diet_food.csv"
+    },
+    {
+      "tableType": {
+        "columns": [
+          {
+            "key": "name",
+            "dataType": "String"
+          },
+          {
+            "key": "value",
+            "dataType": "Number"
+          }
+        ]
+      },
+      "name": "solution",
+      "category": "output",
+      "numberOfRows": 4,
+      "creator": "frederic.pesquet@fr.ibm.com",
+      "createdAt": 1513185314074,
+      "lastUpdater": "frederic.pesquet@fr.ibm.com",
+      "updatedAt": 1513185314074,
+      "path": "solution.csv"
+    }
+  ],
+  "assets": [
+    {
+      "name": "model.py",
+      "category": "model",
+      "creator": "frederic.pesquet@fr.ibm.com",
+      "createdAt": 1513185308437,
+      "lastUpdater": "frederic.pesquet@fr.ibm.com",
+      "updatedAt": 1513185308437,
+      "contentType": "application/json",
+      "path": "model.py"
+    },
+    {
+      "name": "log.txt",
+      "category": "output",
+      "creator": "frederic.pesquet@fr.ibm.com",
+      "createdAt": 1513185314110,
+      "lastUpdater": "frederic.pesquet@fr.ibm.com",
+      "updatedAt": 1513185314110,
+      "path": "log.txt"
+    }
+  ]
+}

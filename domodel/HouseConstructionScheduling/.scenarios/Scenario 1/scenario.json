@@ -1,0 +1,367 @@
+{
+  "qualifiers": [
+    {
+      "name": "modelType",
+      "value": "cognitive"
+    },
+    {
+      "name": "modelMetadata",
+      "value": "null"
+    }
+  ],
+  "parentId": "HouseConstructionScheduling",
+  "category": "scenario",
+  "readOnly": false,
+  "creator": "arnaud.schulz@fr.ibm.com",
+  "createdAt": 1512039483210,
+  "usage": {
+    "lastModificationTime": 1531827773543,
+    "lastModifier": "stephane.michel@fr.ibm.com"
+  },
+  "dataUsagePerCategory": {
+    "input": {
+      "lastModificationTime": 1514977352852,
+      "lastModifier": "stephane.michel@fr.ibm.com"
+    },
+    "": {
+      "lastModificationTime": 1512039485805,
+      "lastModifier": "arnaud.schulz@fr.ibm.com"
+    },
+    "output": {
+      "lastModificationTime": 1531827772939,
+      "lastModifier": "stephane.michel@fr.ibm.com"
+    },
+    "CO_SOLUTION_JSON": {
+      "lastModificationTime": 1514977353022,
+      "lastModifier": "stephane.michel@fr.ibm.com"
+    },
+    "model": {
+      "lastModificationTime": 1531827764598,
+      "lastModifier": "stephane.michel@fr.ibm.com"
+    },
+    "CO_SOLVE_STATUS": {
+      "lastModificationTime": 1514977353070,
+      "lastModifier": "stephane.michel@fr.ibm.com"
+    },
+    "CO_SESSION": {
+      "lastModificationTime": 1531822762756,
+      "lastModifier": "stephane.michel@fr.ibm.com"
+    },
+    "CO_SOLUTION_TEXT": {
+      "lastModificationTime": 1514977352983,
+      "lastModifier": "stephane.michel@fr.ibm.com"
+    },
+    "CO_ASSET": {
+      "lastModificationTime": 1531827773543,
+      "lastModifier": "stephane.michel@fr.ibm.com"
+    },
+    "CO_ASSET_SESSION": {
+      "lastModificationTime": 1531823540041,
+      "lastModifier": "stephane.michel@fr.ibm.com"
+    }
+  },
+  "state": "available",
+  "tables": [
+    {
+      "tableType": {
+        "columns": [
+          {
+            "key": "Activity",
+            "dataType": "String"
+          },
+          {
+            "key": "Duration in days",
+            "dataType": "Number"
+          },
+          {
+            "key": "Preceding activities",
+            "dataType": "String"
+          },
+          {
+            "key": "Possible Subcontractors",
+            "dataType": "String"
+          }
+        ]
+      },
+      "name": "Activity",
+      "category": "input",
+      "lineage": "Copied from house_activity.csv",
+      "numberOfRows": 10,
+      "creator": "achabrier@es.ibm.com",
+      "createdAt": 1513681321606,
+      "lastUpdater": "achabrier@es.ibm.com",
+      "updatedAt": 1513681327241,
+      "path": "house_activity.csv"
+    },
+    {
+      "tableType": {
+        "columns": [
+          {
+            "key": "Name",
+            "dataType": "String"
+          }
+        ]
+      },
+      "name": "Subcontractor",
+      "category": "input",
+      "lineage": "Copied from house_subcontractor.csv",
+      "numberOfRows": 3,
+      "creator": "achabrier@es.ibm.com",
+      "createdAt": 1513681322391,
+      "lastUpdater": "achabrier@es.ibm.com",
+      "updatedAt": 1513681331976,
+      "path": "house_subcontractor.csv"
+    },
+    {
+      "tableType": {
+        "columns": [
+          {
+            "key": "Activity",
+            "dataType": "String"
+          },
+          {
+            "key": "Subcontractor",
+            "dataType": "String"
+          },
+          {
+            "key": "Skill level",
+            "dataType": "Number"
+          }
+        ]
+      },
+      "name": "Expertise",
+      "category": "input",
+      "lineage": "Copied from house_expertise.csv",
+      "numberOfRows": 30,
+      "creator": "achabrier@es.ibm.com",
+      "createdAt": 1513681323034,
+      "lastUpdater": "achabrier@es.ibm.com",
+      "updatedAt": 1513681336333,
+      "path": "house_expertise.csv"
+    },
+    {
+      "tableType": {
+        "columns": [
+          {
+            "key": "id_of_Activity",
+            "dataType": "String"
+          },
+          {
+            "key": "taskStartVar",
+            "dataType": "Number"
+          },
+          {
+            "key": "taskEndVar",
+            "dataType": "Number"
+          },
+          {
+            "key": "taskDurationVar",
+            "dataType": "Number"
+          },
+          {
+            "key": "taskStartVarDate",
+            "dataType": "String"
+          },
+          {
+            "key": "taskEndVarDate",
+            "dataType": "String"
+          },
+          {
+            "key": "taskAbsenceVar",
+            "dataType": "Number"
+          },
+          {
+            "key": "taskPresenceVar",
+            "dataType": "Number"
+          }
+        ]
+      },
+      "name": "list_of_Activity_solution",
+      "category": "output",
+      "numberOfRows": 10,
+      "creator": "stephane.michel@fr.ibm.com",
+      "createdAt": 1531827767935,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1531827767935,
+      "path": "list_of_Activity_solution.csv"
+    },
+    {
+      "tableType": {
+        "columns": [
+          {
+            "key": "Name",
+            "dataType": "String"
+          },
+          {
+            "key": "Value",
+            "dataType": "Number"
+          },
+          {
+            "key": "Scale factor",
+            "dataType": "Number"
+          },
+          {
+            "key": "Scaled weighted value",
+            "dataType": "Number"
+          }
+        ]
+      },
+      "name": "kpis",
+      "category": "output",
+      "numberOfRows": 1,
+      "creator": "stephane.michel@fr.ibm.com",
+      "createdAt": 1531827768731,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1531827772456,
+      "path": "kpis.csv"
+    },
+    {
+      "tableType": {
+        "columns": [
+          {
+            "key": "id_of_Activity",
+            "dataType": "String"
+          },
+          {
+            "key": "id_of_Subcontractor",
+            "dataType": "String"
+          },
+          {
+            "key": "schedulingAssignmentVar",
+            "dataType": "Number"
+          }
+        ]
+      },
+      "name": "list_of_SchedulingAssignment_solution",
+      "category": "output",
+      "numberOfRows": 10,
+      "creator": "stephane.michel@fr.ibm.com",
+      "createdAt": 1531827768927,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1531827768927,
+      "path": "list_of_SchedulingAssignment_solution.csv"
+    },
+    {
+      "tableType": {
+        "columns": [
+          {
+            "key": "Activity",
+            "dataType": "String"
+          },
+          {
+            "key": "Subcontractor Name",
+            "dataType": "String"
+          },
+          {
+            "key": "Activity Duration in days",
+            "dataType": "Number"
+          },
+          {
+            "key": "scheduled start",
+            "dataType": "String"
+          },
+          {
+            "key": "scheduled duration",
+            "dataType": "Number"
+          },
+          {
+            "key": "scheduled end",
+            "dataType": "String"
+          },
+          {
+            "key": "Next",
+            "dataType": "String"
+          },
+          {
+            "key": "Sequence index",
+            "dataType": "Number"
+          },
+          {
+            "key": "predecessors Activity",
+            "dataType": "String"
+          }
+        ]
+      },
+      "name": "Subcontractor_to_Activity_assignments_report",
+      "category": "output",
+      "numberOfRows": 10,
+      "creator": "stephane.michel@fr.ibm.com",
+      "createdAt": 1531827772939,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1531827772939,
+      "path": "Subcontractor_to_Activity_assignments_report.csv"
+    }
+  ],
+  "assets": [
+    {
+      "name": "model.py",
+      "category": "model",
+      "creator": "arnaud.schulz@fr.ibm.com",
+      "createdAt": 1512039486917,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1531827764598,
+      "contentType": "application/json; charset=utf-8",
+      "path": "model.py"
+    },
+    {
+      "name": "CO_SOLVE_STATUS.json",
+      "category": "CO_SOLVE_STATUS",
+      "creator": "arnaud.schulz@fr.ibm.com",
+      "createdAt": 1512039487699,
+      "lastUpdater": "arnaud.schulz@fr.ibm.com",
+      "updatedAt": 1512039487918,
+      "contentType": "application/octet-stream",
+      "contentEncoding": "identity",
+      "path": "CO_SOLVE_STATUS.json"
+    },
+    {
+      "name": "CO_SESSION.json",
+      "category": "CO_ASSET_SESSION",
+      "creator": "stephane.michel@fr.ibm.com",
+      "createdAt": 1531822785759,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1531823540041,
+      "contentType": "application/json; charset=utf-8",
+      "path": "CO_SESSION.json"
+    },
+    {
+      "name": "CO_CHART_SUGGESTION_JSON.json",
+      "category": "CO_ASSET",
+      "creator": "stephane.michel@fr.ibm.com",
+      "createdAt": 1531824740993,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1531827773383,
+      "contentType": "application/json; charset=utf-8",
+      "path": "CO_CHART_SUGGESTION_JSON.json"
+    },
+    {
+      "name": "log.txt",
+      "category": "output",
+      "creator": "stephane.michel@fr.ibm.com",
+      "createdAt": 1531827769176,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1531827769176,
+      "path": "log.txt"
+    },
+    {
+      "name": "CO_SOLUTION_JSON.json",
+      "category": "CO_ASSET",
+      "creator": "stephane.michel@fr.ibm.com",
+      "createdAt": 1531827773242,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1531827773242,
+      "contentType": "application/json; charset=utf-8",
+      "path": "CO_SOLUTION_JSON.json"
+    },
+    {
+      "name": "CO_SOLUTION_TEXT.json",
+      "category": "CO_ASSET",
+      "creator": "stephane.michel@fr.ibm.com",
+      "createdAt": 1531827773543,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1531827773543,
+      "contentType": "application/json; charset=utf-8",
+      "path": "CO_SOLUTION_TEXT.json"
+    }
+  ]
+}

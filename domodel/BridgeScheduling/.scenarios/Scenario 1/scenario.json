@@ -1,0 +1,338 @@
+{
+  "qualifiers": [
+    {
+      "name": "modelType",
+      "value": "cognitive"
+    },
+    {
+      "name": "modelMetadata",
+      "value": "null"
+    }
+  ],
+  "parentId": "BridgeScheduling",
+  "category": "scenario",
+  "readOnly": false,
+  "creator": "achabrier@es.ibm.com",
+  "createdAt": 1513672350983,
+  "usage": {
+    "lastModificationTime": 1531821091095,
+    "lastModifier": "stephane.michel@fr.ibm.com"
+  },
+  "dataUsagePerCategory": {
+    "input": {
+      "lastModificationTime": 1515001650859,
+      "lastModifier": "stephane.michel@fr.ibm.com"
+    },
+    "CO_SESSION": {
+      "lastModificationTime": 1515001636058,
+      "lastModifier": "stephane.michel@fr.ibm.com"
+    },
+    "model": {
+      "lastModificationTime": 1531821078091,
+      "lastModifier": "stephane.michel@fr.ibm.com"
+    },
+    "output": {
+      "lastModificationTime": 1531821090424,
+      "lastModifier": "stephane.michel@fr.ibm.com"
+    },
+    "CO_SOLVE_STATUS": {
+      "lastModificationTime": 1515001651092,
+      "lastModifier": "stephane.michel@fr.ibm.com"
+    },
+    "CO_SOLUTION_JSON": {
+      "lastModificationTime": 1515001651043,
+      "lastModifier": "stephane.michel@fr.ibm.com"
+    },
+    "CO_SOLUTION_TEXT": {
+      "lastModificationTime": 1515001651139,
+      "lastModifier": "stephane.michel@fr.ibm.com"
+    },
+    "CO_ASSET": {
+      "lastModificationTime": 1531821091095,
+      "lastModifier": "stephane.michel@fr.ibm.com"
+    },
+    "CO_ASSET_SESSION": {
+      "lastModificationTime": 1531820431746,
+      "lastModifier": "stephane.michel@fr.ibm.com"
+    }
+  },
+  "state": "available",
+  "tables": [
+    {
+      "tableType": {
+        "columns": [
+          {
+            "key": "Id",
+            "dataType": "String"
+          },
+          {
+            "key": "Capacity",
+            "dataType": "Number"
+          }
+        ]
+      },
+      "name": "equipment",
+      "category": "input",
+      "lineage": "Copied from bridge_equipment.csv",
+      "numberOfRows": 7,
+      "creator": "achabrier@es.ibm.com",
+      "createdAt": 1513676918382,
+      "lastUpdater": "achabrier@es.ibm.com",
+      "updatedAt": 1513677112154,
+      "path": "bridge_equipment.csv"
+    },
+    {
+      "tableType": {
+        "columns": [
+          {
+            "key": "Id",
+            "dataType": "String"
+          },
+          {
+            "key": "Days",
+            "dataType": "Number"
+          },
+          {
+            "key": "Preceding activities",
+            "dataType": "String"
+          },
+          {
+            "key": "Required equipment",
+            "dataType": "String"
+          }
+        ]
+      },
+      "name": "activity",
+      "category": "input",
+      "lineage": "Copied from bridge_activity.csv",
+      "numberOfRows": 44,
+      "creator": "achabrier@es.ibm.com",
+      "createdAt": 1513676919288,
+      "lastUpdater": "achabrier@es.ibm.com",
+      "updatedAt": 1513677117219,
+      "path": "bridge_activity.csv"
+    },
+    {
+      "tableType": {
+        "columns": [
+          {
+            "key": "Before",
+            "dataType": "String"
+          },
+          {
+            "key": "After",
+            "dataType": "String"
+          },
+          {
+            "key": "Min delay",
+            "dataType": "Number"
+          },
+          {
+            "key": "Max delay",
+            "dataType": "Number"
+          },
+          {
+            "key": "Description",
+            "dataType": "String"
+          }
+        ]
+      },
+      "name": "wait",
+      "category": "input",
+      "lineage": "Copied from bridge_wait.csv",
+      "numberOfRows": 25,
+      "creator": "achabrier@es.ibm.com",
+      "createdAt": 1513676920291,
+      "lastUpdater": "achabrier@es.ibm.com",
+      "updatedAt": 1514888986782,
+      "path": "wait.csv"
+    },
+    {
+      "tableType": {
+        "columns": [
+          {
+            "key": "id_of_Activity",
+            "dataType": "String"
+          },
+          {
+            "key": "taskStartVar",
+            "dataType": "Number"
+          },
+          {
+            "key": "taskEndVar",
+            "dataType": "Number"
+          },
+          {
+            "key": "taskDurationVar",
+            "dataType": "Number"
+          },
+          {
+            "key": "taskStartVarDate",
+            "dataType": "String"
+          },
+          {
+            "key": "taskEndVarDate",
+            "dataType": "String"
+          },
+          {
+            "key": "taskAbsenceVar",
+            "dataType": "Number"
+          },
+          {
+            "key": "taskPresenceVar",
+            "dataType": "Number"
+          }
+        ]
+      },
+      "name": "list_of_Activity_solution",
+      "category": "output",
+      "numberOfRows": 44,
+      "creator": "stephane.michel@fr.ibm.com",
+      "createdAt": 1531821084802,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1531821084802,
+      "path": "list_of_Activity_solution.csv"
+    },
+    {
+      "tableType": {
+        "columns": [
+          {
+            "key": "Name",
+            "dataType": "String"
+          },
+          {
+            "key": "Value",
+            "dataType": "Number"
+          },
+          {
+            "key": "Scale factor",
+            "dataType": "Number"
+          },
+          {
+            "key": "Scaled weighted value",
+            "dataType": "Number"
+          }
+        ]
+      },
+      "name": "kpis",
+      "category": "output",
+      "numberOfRows": 1,
+      "creator": "stephane.michel@fr.ibm.com",
+      "createdAt": 1531821085639,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1531821090424,
+      "path": "kpis.csv"
+    },
+    {
+      "tableType": {
+        "columns": [
+          {
+            "key": "Id",
+            "dataType": "String"
+          },
+          {
+            "key": "Days",
+            "dataType": "Number"
+          },
+          {
+            "key": "Required equipment Capacity",
+            "dataType": "Number"
+          },
+          {
+            "key": "Required equipment Id",
+            "dataType": "String"
+          },
+          {
+            "key": "scheduled start",
+            "dataType": "String"
+          },
+          {
+            "key": "scheduled duration",
+            "dataType": "Number"
+          },
+          {
+            "key": "scheduled end",
+            "dataType": "String"
+          },
+          {
+            "key": "required equipment",
+            "dataType": "String"
+          },
+          {
+            "key": "predecessors activity",
+            "dataType": "String"
+          }
+        ]
+      },
+      "name": "Scheduled_activities_report",
+      "category": "output",
+      "numberOfRows": 44,
+      "creator": "stephane.michel@fr.ibm.com",
+      "createdAt": 1531821089884,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1531821089884,
+      "path": "Scheduled_activities_report.csv"
+    }
+  ],
+  "assets": [
+    {
+      "name": "model.py",
+      "category": "model",
+      "creator": "achabrier@es.ibm.com",
+      "createdAt": 1513672539570,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1531821078091,
+      "contentType": "application/json; charset=utf-8",
+      "path": "model.py"
+    },
+    {
+      "name": "CO_SESSION.json",
+      "category": "CO_ASSET_SESSION",
+      "creator": "stephane.michel@fr.ibm.com",
+      "createdAt": 1531819838797,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1531820431746,
+      "contentType": "application/json; charset=utf-8",
+      "path": "CO_SESSION.json"
+    },
+    {
+      "name": "CO_CHART_SUGGESTION_JSON.json",
+      "category": "CO_ASSET",
+      "creator": "stephane.michel@fr.ibm.com",
+      "createdAt": 1531820500904,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1531821091095,
+      "contentType": "application/json; charset=utf-8",
+      "path": "CO_CHART_SUGGESTION_JSON.json"
+    },
+    {
+      "name": "log.txt",
+      "category": "output",
+      "creator": "stephane.michel@fr.ibm.com",
+      "createdAt": 1531821085254,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1531821085254,
+      "path": "log.txt"
+    },
+    {
+      "name": "CO_SOLUTION_TEXT.json",
+      "category": "CO_ASSET",
+      "creator": "stephane.michel@fr.ibm.com",
+      "createdAt": 1531821088623,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1531821088623,
+      "contentType": "application/json; charset=utf-8",
+      "path": "CO_SOLUTION_TEXT.json"
+    },
+    {
+      "name": "CO_SOLUTION_JSON.json",
+      "category": "CO_ASSET",
+      "creator": "stephane.michel@fr.ibm.com",
+      "createdAt": 1531821089445,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1531821089445,
+      "contentType": "application/json; charset=utf-8",
+      "path": "CO_SOLUTION_JSON.json"
+    }
+  ]
+}

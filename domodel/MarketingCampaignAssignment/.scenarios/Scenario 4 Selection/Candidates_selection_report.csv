@@ -1,0 +1,10 @@
+Candidates line,Candidates expected value,Candidates Campaign id,Candidates Customer id,total expected value of selected Candidates
+"",110,Auto,Customer 9,110.0
+"",100,Home,Customer 1,100.0
+"",75,Home,Customer 5,75.0
+"",75,Auto,Customer 3,75.0
+"",80,Auto,Customer 4,80.0
+"",60,Travel,Customer 8,60.0
+"",75,Travel,Customer 2,75.0
+"",75,Home,Customer 6,75.0
+"",75,Travel,Customer 7,75.0

@@ -1,0 +1,319 @@
+Product,Market,Value
+200S,US,27
+200S,Canada,31
+200S,Brazil,30
+200S,Argentina,21
+200S,UK,24
+200S,France,28
+200S,Germany,7
+200S,Spain,23
+200S,Italy,11
+200S,China,29
+200S,Japan,21
+300S,US,9
+300S,Canada,7
+300S,Brazil,21
+300S,Argentina,15
+300S,UK,9
+300S,France,36
+300S,Germany,12
+300S,Spain,7
+300S,Italy,2
+300S,China,11
+300S,Japan,4
+600S,US,2
+600S,Canada,25
+600S,Brazil,24
+600S,Argentina,25
+600S,UK,9
+600S,France,39
+600S,Germany,36
+600S,Spain,23
+600S,Italy,27
+600S,China,33
+600S,Japan,7
+626S,US,24
+626S,Canada,17
+626S,Brazil,9
+626S,Argentina,37
+626S,UK,10
+626S,France,7
+626S,Germany,7
+626S,Spain,6
+626S,Italy,8
+626S,China,26
+626S,Japan,28
+676S,US,16
+676S,Canada,7
+676S,Brazil,3
+676S,Argentina,30
+676S,UK,9
+676S,France,28
+676S,Germany,37
+676S,Spain,15
+676S,Italy,35
+676S,China,19
+676S,Japan,16
+676RS,US,34
+676RS,Canada,5
+676RS,Brazil,19
+676RS,Argentina,28
+676RS,UK,8
+676RS,France,12
+676RS,Germany,19
+676RS,Spain,21
+676RS,Italy,12
+676RS,China,12
+676RS,Japan,24
+900S,US,3
+900S,Canada,35
+900S,Brazil,12
+900S,Argentina,12
+900S,UK,38
+900S,France,14
+900S,Germany,14
+900S,Spain,20
+900S,Italy,7
+900S,China,4
+900S,Japan,13
+929S,US,36
+929S,Canada,14
+929S,Brazil,5
+929S,Argentina,4
+929S,UK,18
+929S,France,39
+929S,Germany,5
+929S,Spain,31
+929S,Italy,13
+929S,China,22
+929S,Japan,7
+996S,US,23
+996S,Canada,29
+996S,Brazil,3
+996S,Argentina,32
+996S,UK,16
+996S,France,17
+996S,Germany,16
+996S,Spain,28
+996S,Italy,8
+996S,China,33
+996S,Japan,17
+996RS,US,5
+996RS,Canada,24
+996RS,Brazil,32
+996RS,Argentina,16
+996RS,UK,18
+996RS,France,8
+996RS,Germany,11
+996RS,Spain,24
+996RS,Italy,24
+996RS,China,2
+996RS,Japan,8
+RoadStar,US,29
+RoadStar,Canada,34
+RoadStar,Brazil,27
+RoadStar,Argentina,35
+RoadStar,UK,12
+RoadStar,France,31
+RoadStar,Germany,30
+RoadStar,Spain,28
+RoadStar,Italy,37
+RoadStar,China,11
+RoadStar,Japan,25
+RoadLiner,US,5
+RoadLiner,Canada,28
+RoadLiner,Brazil,35
+RoadLiner,Argentina,21
+RoadLiner,UK,13
+RoadLiner,France,18
+RoadLiner,Germany,21
+RoadLiner,Spain,27
+RoadLiner,Italy,14
+RoadLiner,China,21
+RoadLiner,Japan,9
+Victory,US,32
+Victory,Canada,29
+Victory,Brazil,24
+Victory,Argentina,10
+Victory,UK,12
+Victory,France,16
+Victory,Germany,25
+Victory,Spain,13
+Victory,Italy,29
+Victory,China,27
+Victory,Japan,4
+Boulevard,US,28
+Boulevard,Canada,17
+Boulevard,Brazil,3
+Boulevard,Argentina,12
+Boulevard,UK,13
+Boulevard,France,9
+Boulevard,Germany,1
+Boulevard,Spain,34
+Boulevard,Italy,26
+Boulevard,China,33
+Boulevard,Japan,27
+KingTwin,US,12
+KingTwin,Canada,17
+KingTwin,Brazil,7
+KingTwin,Argentina,28
+KingTwin,UK,27
+KingTwin,France,32
+KingTwin,Germany,39
+KingTwin,Spain,29
+KingTwin,Italy,22
+KingTwin,China,26
+KingTwin,Japan,15
+MegaTwin,US,22
+MegaTwin,Canada,9
+MegaTwin,Brazil,27
+MegaTwin,Argentina,29
+MegaTwin,UK,11
+MegaTwin,France,30
+MegaTwin,Germany,12
+MegaTwin,Spain,9
+MegaTwin,Italy,29
+MegaTwin,Japan,19
+ST900,US,14
+ST900,Canada,3
+ST900,Brazil,6
+ST900,Argentina,25
+ST900,UK,14
+ST900,France,21
+ST900,Germany,13
+ST900,Spain,14
+ST900,Italy,18
+ST900,China,18
+ST900,Japan,15
+ST1200,US,19
+ST1200,Canada,4
+ST1200,Brazil,19
+ST1200,Argentina,29
+ST1200,UK,31
+ST1200,France,27
+ST1200,Germany,9
+ST1200,Spain,32
+ST1200,Italy,22
+ST1200,China,33
+ST1200,Japan,33
+ST1200R,US,25
+ST1200R,Canada,22
+ST1200R,Brazil,5
+ST1200R,Argentina,16
+ST1200R,UK,36
+ST1200R,France,23
+ST1200R,Germany,11
+ST1200R,Spain,16
+ST1200R,Italy,3
+ST1200R,China,29
+ST1200R,Japan,18
+Bandit 900,US,18
+Bandit 900,Canada,20
+Bandit 900,Brazil,35
+Bandit 900,Argentina,22
+Bandit 900,UK,36
+Bandit 900,France,34
+Bandit 900,Germany,9
+Bandit 900,Spain,16
+Bandit 900,Italy,36
+Bandit 900,China,18
+Bandit 900,Japan,17
+Bandit 1200,US,32
+Bandit 1200,Canada,21
+Bandit 1200,Brazil,22
+Bandit 1200,Argentina,28
+Bandit 1200,UK,38
+Bandit 1200,France,7
+Bandit 1200,Germany,19
+Bandit 1200,Spain,36
+Bandit 1200,Italy,12
+Bandit 1200,China,34
+Bandit 1200,Japan,11
+Bandit 1200S,US,20
+Bandit 1200S,Canada,21
+Bandit 1200S,Brazil,10
+Bandit 1200S,Argentina,30
+Bandit 1200S,UK,23
+Bandit 1200S,France,33
+Bandit 1200S,Germany,19
+Bandit 1200S,Spain,4
+Bandit 1200S,Italy,9
+Bandit 1200S,China,27
+Bandit 1200S,Japan,30
+Enduro 350,US,21
+Enduro 350,Canada,1
+Enduro 350,Brazil,9
+Enduro 350,Argentina,26
+Enduro 350,UK,3
+Enduro 350,France,36
+Enduro 350,Germany,3
+Enduro 350,Spain,33
+Enduro 350,Italy,1
+Enduro 350,China,31
+Enduro 350,Japan,26
+Enduro 450,US,19
+Enduro 450,Canada,9
+Enduro 450,Brazil,22
+Enduro 450,Argentina,6
+Enduro 450,UK,20
+Enduro 450,France,24
+Enduro 450,Germany,34
+Enduro 450,Spain,13
+Enduro 450,Italy,12
+Enduro 450,China,17
+Enduro 450,Japan,25
+Enduro 550,US,30
+Enduro 550,Canada,21
+Enduro 550,Brazil,8
+Enduro 550,Argentina,19
+Enduro 550,UK,17
+Enduro 550,France,13
+Enduro 550,Germany,30
+Enduro 550,Spain,19
+Enduro 550,Italy,32
+Enduro 550,China,34
+Enduro 550,Japan,28
+CRX500,US,20
+CRX500,Canada,9
+CRX500,Brazil,24
+CRX500,Argentina,29
+CRX500,UK,27
+CRX500,France,21
+CRX500,Germany,20
+CRX500,Spain,18
+CRX500,Italy,35
+CRX500,China,17
+CRX500,Japan,29
+CRS550,US,32
+CRS550,Canada,26
+CRS550,Brazil,36
+CRS550,Argentina,37
+CRS550,UK,37
+CRS550,France,22
+CRS550,Germany,20
+CRS550,Spain,21
+CRS550,Italy,23
+CRS550,China,8
+CRS550,Japan,7
+CRX600,US,22
+CRX600,Canada,3
+CRX600,Brazil,35
+CRX600,Argentina,16
+CRX600,UK,13
+CRX600,France,18
+CRX600,Germany,6
+CRX600,Spain,16
+CRX600,Italy,23
+CRX600,China,24
+CRX600,Japan,25
+CRX650,US,14
+CRX650,Canada,21
+CRX650,Brazil,33
+CRX650,Argentina,21
+CRX650,UK,34
+CRX650,France,17
+CRX650,Germany,12
+CRX650,Spain,33
+CRX650,Italy,23
+CRX650,China,14
+CRX650,Japan,28

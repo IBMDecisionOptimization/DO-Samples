@@ -1,0 +1,258 @@
+{
+  "qualifiers": [
+    {
+      "name": "modelType",
+      "value": "cognitive"
+    },
+    {
+      "name": "modelMetadata",
+      "value": "null"
+    }
+  ],
+  "parentId": "MarketingCampaignAssignment",
+  "category": "scenario",
+  "readOnly": false,
+  "creator": "stephane.michel@fr.ibm.com",
+  "createdAt": 1531828346319,
+  "usage": {
+    "lastModificationTime": 1531830589333,
+    "lastModifier": "stephane.michel@fr.ibm.com"
+  },
+  "dataUsagePerCategory": {
+    "input": {
+      "lastModificationTime": 1519303808087,
+      "lastModifier": "achabrier@es.ibm.com"
+    },
+    "CO_ASSET_SESSION": {
+      "lastModificationTime": 1531830589333,
+      "lastModifier": "stephane.michel@fr.ibm.com"
+    },
+    "model": {
+      "lastModificationTime": 1531828368740,
+      "lastModifier": "stephane.michel@fr.ibm.com"
+    },
+    "CO_ASSET": {
+      "lastModificationTime": 1531828368412,
+      "lastModifier": "stephane.michel@fr.ibm.com"
+    },
+    "output": {
+      "lastModificationTime": 1521538021976,
+      "lastModifier": "stephane.michel@fr.ibm.com"
+    }
+  },
+  "state": "available",
+  "tables": [
+    {
+      "tableType": {
+        "columns": [
+          {
+            "key": "Customer",
+            "dataType": "String"
+          },
+          {
+            "key": "Campaign",
+            "dataType": "String"
+          },
+          {
+            "key": "expected value",
+            "dataType": "Number"
+          }
+        ]
+      },
+      "name": "Candidates",
+      "category": "input",
+      "lineage": "Copied from marketing-candidate-small.csv",
+      "numberOfRows": 27,
+      "creator": "achabrier@es.ibm.com",
+      "createdAt": 1519204163820,
+      "lastUpdater": "achabrier@es.ibm.com",
+      "updatedAt": 1519204183737,
+      "path": "marketing-candidate-small.csv"
+    },
+    {
+      "tableType": {
+        "columns": [
+          {
+            "key": "id",
+            "dataType": "String"
+          },
+          {
+            "key": "max customers",
+            "dataType": "Number"
+          }
+        ]
+      },
+      "name": "Campaign",
+      "category": "input",
+      "lineage": "Copied from marketing-campaign-small.csv",
+      "numberOfRows": 3,
+      "creator": "achabrier@es.ibm.com",
+      "createdAt": 1519303796042,
+      "lastUpdater": "achabrier@es.ibm.com",
+      "updatedAt": 1519303804730,
+      "path": "marketing-campaign-small.csv"
+    },
+    {
+      "tableType": {
+        "columns": [
+          {
+            "key": "id",
+            "dataType": "String"
+          },
+          {
+            "key": "age",
+            "dataType": "Number"
+          }
+        ]
+      },
+      "name": "Customer",
+      "category": "input",
+      "lineage": "Copied from marketing-customer-small.csv",
+      "numberOfRows": 9,
+      "creator": "achabrier@es.ibm.com",
+      "createdAt": 1519303800982,
+      "lastUpdater": "achabrier@es.ibm.com",
+      "updatedAt": 1519303808087,
+      "path": "marketing-customer-small.csv"
+    },
+    {
+      "tableType": {
+        "columns": [
+          {
+            "key": "id_of_Customer",
+            "dataType": "String"
+          },
+          {
+            "key": "id_of_Campaign",
+            "dataType": "String"
+          },
+          {
+            "key": "resourceAssignmentVar",
+            "dataType": "Number"
+          }
+        ]
+      },
+      "name": "list_of_ResourceAssignment_solution",
+      "category": "output",
+      "numberOfRows": 9,
+      "creator": "stephane.michel@fr.ibm.com",
+      "createdAt": 1521538021181,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1521538021181,
+      "path": "list_of_ResourceAssignment_solution.csv"
+    },
+    {
+      "tableType": {
+        "columns": [
+          {
+            "key": "NAME",
+            "dataType": "String"
+          },
+          {
+            "key": "VALUE",
+            "dataType": "Number"
+          }
+        ]
+      },
+      "name": "kpis",
+      "category": "output",
+      "numberOfRows": 1,
+      "creator": "stephane.michel@fr.ibm.com",
+      "createdAt": 1521538021211,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1521538021211,
+      "path": "kpis.csv"
+    },
+    {
+      "tableType": {
+        "columns": [
+          {
+            "key": "Customer id",
+            "dataType": "String"
+          },
+          {
+            "key": "Campaign id",
+            "dataType": "String"
+          },
+          {
+            "key": "Customer age",
+            "dataType": "Number"
+          },
+          {
+            "key": "Campaign max customers",
+            "dataType": "Number"
+          },
+          {
+            "key": "Candidates expected value",
+            "dataType": "Number"
+          }
+        ]
+      },
+      "name": "Customer_to_Campaign_assignment_report",
+      "category": "output",
+      "numberOfRows": 9,
+      "creator": "stephane.michel@fr.ibm.com",
+      "createdAt": 1521538021944,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1521538021944,
+      "path": "Customer_to_Campaign_assignment_report.csv"
+    },
+    {
+      "tableType": {
+        "columns": [
+          {
+            "key": "Name",
+            "dataType": "String"
+          },
+          {
+            "key": "Value",
+            "dataType": "Number"
+          },
+          {
+            "key": "Weight",
+            "dataType": "Number"
+          }
+        ]
+      },
+      "name": "Objectives_report",
+      "category": "output",
+      "numberOfRows": 1,
+      "creator": "stephane.michel@fr.ibm.com",
+      "createdAt": 1521538021976,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1521538021976,
+      "path": "Objectives_report.csv"
+    }
+  ],
+  "assets": [
+    {
+      "name": "model.py",
+      "category": "model",
+      "creator": "achabrier@es.ibm.com",
+      "createdAt": 1519303960726,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1521538019567,
+      "contentType": "application/json; charset=utf-8",
+      "path": "model.py"
+    },
+    {
+      "name": "log.txt",
+      "category": "output",
+      "creator": "stephane.michel@fr.ibm.com",
+      "createdAt": 1521538021105,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1521538021105,
+      "path": "log.txt"
+    },
+    {
+      "name": "CO_SESSION.json",
+      "category": "CO_ASSET_SESSION",
+      "creator": "stephane.michel@fr.ibm.com",
+      "createdAt": 1531828573121,
+      "lastUpdater": "stephane.michel@fr.ibm.com",
+      "updatedAt": 1531830589333,
+      "contentType": "application/json; charset=utf-8",
+      "path": "CO_SESSION.json"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+Name,Type,Maturity,Price Level
+200S,Street,Phase-Out,Entry Level
+300S,Street,Phase-Out,Mid-Range
+600S,Street,Established,Entry Level
+626S,Street,Established,Mid-Range
+676S,Street,New Introduction,High-End
+676RS,Street,New Introduction,High-End
+900S,Street,Phase-Out,Mid-Range
+929S,Street,Established,Mid-Range
+996S,Street,New Introduction,Mid-Range
+996RS,Street,New Introduction,High-End
+RoadStar,Cruiser,Phase-Out,Entry Level
+RoadLiner,Cruiser,Phase-Out,Mid-Range
+Victory,Cruiser,Established,Entry Level
+Boulevard,Cruiser,Established,Mid-Range
+KingTwin,Cruiser,New Introduction,Entry Level
+MegaTwin,Cruiser,New Introduction,High-End
+ST900,Touring,Phase-Out,Entry Level
+ST1200,Touring,Established,Mid-Range
+ST1200R,Touring,New Introduction,High-End
+Bandit 900,Touring,Established,Entry Level
+Bandit 1200,Touring,Established,Mid-Range
+Bandit 1200S,Touring,New Introduction,High-End
+Enduro 350,Off-Road,Phase-Out,Mid-Range
+Enduro 450,Off-Road,Established,Entry Level
+Enduro 550,Off-Road,New Introduction,High-End
+CRX500,Off-Road,Phase-Out,Entry Level
+CRS550,Off-Road,Established,Mid-Range
+CRX600,Off-Road,Established,Mid-Range
+CRX650,Off-Road,New Introduction,High-End

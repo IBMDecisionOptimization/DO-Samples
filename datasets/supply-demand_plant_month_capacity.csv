@@ -1,0 +1,169 @@
+Plant,Month,Value
+Houston,Jan-07,1875
+Houston,Feb-07,1860
+Houston,Mar-07,1830
+Houston,Apr-07,1878
+Houston,May-07,1839
+Houston,Jun-07,1884
+Houston,Jul-07,1827
+Houston,Aug-07,1839
+Houston,Sep-07,1869
+Houston,Oct-07,1848
+Houston,Nov-07,1869
+Houston,Dec-07,1644
+Houston,Jan-08,1878
+Houston,Feb-08,1869
+Houston,Mar-08,1872
+Houston,Apr-08,1866
+Houston,May-08,1881
+Houston,Jun-08,1863
+Houston,Jul-08,1884
+Houston,Aug-08,1884
+Houston,Sep-08,1863
+Houston,Oct-08,1869
+Houston,Nov-08,1848
+Houston,Dec-08,1689
+Dallas,Jan-07,1902
+Dallas,Feb-07,1908
+Dallas,Mar-07,1887
+Dallas,Apr-07,1917
+Dallas,May-07,1917
+Dallas,Jun-07,1911
+Dallas,Jul-07,1917
+Dallas,Aug-07,1923
+Dallas,Sep-07,1917
+Dallas,Oct-07,1899
+Dallas,Nov-07,1887
+Dallas,Dec-07,1692
+Dallas,Jan-08,1887
+Dallas,Feb-08,1899
+Dallas,Mar-08,1908
+Dallas,Apr-08,1899
+Dallas,May-08,1881
+Dallas,Jun-08,1923
+Dallas,Jul-08,1893
+Dallas,Aug-08,1926
+Dallas,Sep-08,1893
+Dallas,Oct-08,1917
+Dallas,Nov-08,1905
+Dallas,Dec-08,1689
+Los Angeles,Jan-07,1872
+Los Angeles,Feb-07,1860
+Los Angeles,Mar-07,1821
+Los Angeles,Apr-07,1818
+Los Angeles,May-07,1848
+Los Angeles,Jun-07,1836
+Los Angeles,Jul-07,1860
+Los Angeles,Aug-07,1851
+Los Angeles,Sep-07,1860
+Los Angeles,Oct-07,1854
+Los Angeles,Nov-07,1872
+Los Angeles,Dec-07,1656
+Los Angeles,Jan-08,1866
+Los Angeles,Feb-08,1869
+Los Angeles,Mar-08,1860
+Los Angeles,Apr-08,1839
+Los Angeles,May-08,1866
+Los Angeles,Jun-08,1869
+Los Angeles,Jul-08,1833
+Los Angeles,Aug-08,1863
+Los Angeles,Sep-08,1872
+Los Angeles,Oct-08,1857
+Los Angeles,Nov-08,1875
+Los Angeles,Dec-08,1638
+Mexico,Jan-07,1692
+Mexico,Feb-07,1707
+Mexico,Mar-07,1719
+Mexico,Apr-07,1701
+Mexico,May-07,1665
+Mexico,Jun-07,1677
+Mexico,Jul-07,1671
+Mexico,Aug-07,1692
+Mexico,Sep-07,1704
+Mexico,Oct-07,1707
+Mexico,Nov-07,1707
+Mexico,Dec-07,1509
+Mexico,Jan-08,1719
+Mexico,Feb-08,1662
+Mexico,Mar-08,1716
+Mexico,Apr-08,1662
+Mexico,May-08,1692
+Mexico,Jun-08,1665
+Mexico,Jul-08,1701
+Mexico,Aug-08,1704
+Mexico,Sep-08,1716
+Mexico,Oct-08,1707
+Mexico,Nov-08,1686
+Mexico,Dec-08,1521
+Toledo,Jan-07,2157
+Toledo,Feb-07,2166
+Toledo,Mar-07,2175
+Toledo,Apr-07,2178
+Toledo,May-07,2196
+Toledo,Jun-07,2169
+Toledo,Jul-07,2148
+Toledo,Aug-07,1950
+Toledo,Sep-07,2157
+Toledo,Oct-07,2166
+Toledo,Nov-07,2145
+Toledo,Dec-07,1941
+Toledo,Jan-08,2142
+Toledo,Feb-08,2187
+Toledo,Mar-08,2142
+Toledo,Apr-08,2160
+Toledo,May-08,2166
+Toledo,Jun-08,2193
+Toledo,Jul-08,2163
+Toledo,Aug-08,1986
+Toledo,Sep-08,2181
+Toledo,Oct-08,2163
+Toledo,Nov-08,2199
+Toledo,Dec-08,1938
+Bucarest,Jan-07,3027
+Bucarest,Feb-07,3042
+Bucarest,Mar-07,3003
+Bucarest,Apr-07,3021
+Bucarest,May-07,3012
+Bucarest,Jun-07,3030
+Bucarest,Jul-07,3045
+Bucarest,Aug-07,2709
+Bucarest,Sep-07,3018
+Bucarest,Oct-07,2997
+Bucarest,Nov-07,3027
+Bucarest,Dec-07,2718
+Bucarest,Jan-08,3006
+Bucarest,Feb-08,3021
+Bucarest,Mar-08,3009
+Bucarest,Apr-08,3000
+Bucarest,May-08,3003
+Bucarest,Jun-08,3033
+Bucarest,Jul-08,3018
+Bucarest,Aug-08,2688
+Bucarest,Sep-08,3042
+Bucarest,Oct-08,3012
+Bucarest,Nov-08,3012
+Bucarest,Dec-08,2730
+Shanghai,Jan-07,2523
+Shanghai,Feb-07,2532
+Shanghai,Mar-07,2520
+Shanghai,Apr-07,2508
+Shanghai,May-07,2526
+Shanghai,Jun-07,2493
+Shanghai,Jul-07,2535
+Shanghai,Aug-07,2493
+Shanghai,Sep-07,2514
+Shanghai,Oct-07,2493
+Shanghai,Nov-07,2517
+Shanghai,Dec-07,2253
+Shanghai,Jan-08,2526
+Shanghai,Feb-08,2502
+Shanghai,Mar-08,2538
+Shanghai,Apr-08,2508
+Shanghai,May-08,3762
+Shanghai,Jun-08,3768
+Shanghai,Jul-08,3798
+Shanghai,Aug-08,3798
+Shanghai,Sep-08,3753
+Shanghai,Oct-08,3759
+Shanghai,Nov-08,3765
+Shanghai,Dec-08,3510

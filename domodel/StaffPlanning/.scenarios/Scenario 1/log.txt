@@ -1,0 +1,16 @@
+[2018-05-25T15:58:51Z, INFO] WARNING: Number of workers has been reduced to 1 to comply with platform limitations.
+[2018-05-25T15:58:51Z, INFO] CPLEX Error  1016: Promotional version. Problem size limits exceeded.
+[2018-05-25T15:58:51Z, INFO] CPLEX Error  1217: No solution exists.
+[2018-05-25T15:58:51Z, INFO] CPLEX Error  1217: No solution exists.
+[2018-05-25T15:58:51Z, SEVERE] InterpreterError :   File "model.py", line 92, in <module>
+    if mdl.solve():
+  File "/opt/ibm/lib/docplex/docplex/mp/model.py", line 3436, in solve
+    return self._solve_local(context, force_clean_before_solve)
+  File "/opt/ibm/lib/docplex/docplex/mp/model.py", line 3563, in _solve_local
+    raise docpx_e
+DOcplexLimitsExceeded: **** Promotional version. Problem size limits exceeded, CPLEX code=1016
+
+Traceback (most recent call last):
+  File "/python_container/job/main.py", line 120, in <module>
+    raise InterpreterError(imsg)
+

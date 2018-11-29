@@ -1,0 +1,204 @@
+Plant,Product,Value
+Houston,200S,231
+Houston,300S,102
+Houston,600S,245
+Houston,626S,164
+Houston,676S,230
+Houston,676RS,225
+Houston,900S,48
+Houston,929S,112
+Houston,996S,89
+Houston,996RS,246
+Houston,RoadStar,205
+Houston,RoadLiner,198
+Houston,Victory,273
+Houston,Boulevard,238
+Houston,KingTwin,216
+Houston,MegaTwin,130
+Houston,ST900,80
+Houston,ST1200,182
+Houston,ST1200R,72
+Houston,Bandit 900,146
+Houston,Bandit 1200,117
+Houston,Bandit 1200S,235
+Houston,Enduro 350,240
+Houston,Enduro 450,55
+Houston,Enduro 550,215
+Houston,CRX500,83
+Houston,CRS550,96
+Houston,CRX600,81
+Houston,CRX650,138
+Dallas,200S,76
+Dallas,300S,253
+Dallas,600S,122
+Dallas,626S,98
+Dallas,676S,244
+Dallas,676RS,36
+Dallas,900S,34
+Dallas,929S,181
+Dallas,996S,172
+Dallas,996RS,149
+Dallas,RoadStar,262
+Dallas,RoadLiner,105
+Dallas,Victory,155
+Dallas,Boulevard,197
+Dallas,KingTwin,41
+Dallas,MegaTwin,178
+Dallas,ST900,31
+Dallas,ST1200,82
+Dallas,ST1200R,186
+Dallas,Bandit 900,206
+Dallas,Bandit 1200,117
+Dallas,Bandit 1200S,207
+Dallas,Enduro 350,43
+Dallas,Enduro 450,160
+Dallas,Enduro 550,104
+Dallas,CRX500,161
+Dallas,CRS550,86
+Dallas,CRX600,125
+Dallas,CRX650,35
+Los Angeles,200S,89
+Los Angeles,300S,61
+Los Angeles,600S,117
+Los Angeles,626S,213
+Los Angeles,676S,48
+Los Angeles,676RS,139
+Los Angeles,900S,156
+Los Angeles,929S,111
+Los Angeles,996S,204
+Los Angeles,996RS,36
+Los Angeles,RoadStar,143
+Los Angeles,RoadLiner,66
+Los Angeles,Victory,252
+Los Angeles,Boulevard,145
+Los Angeles,KingTwin,169
+Los Angeles,MegaTwin,261
+Los Angeles,ST900,160
+Los Angeles,ST1200,56
+Los Angeles,ST1200R,175
+Los Angeles,Bandit 900,111
+Los Angeles,Bandit 1200,272
+Los Angeles,Bandit 1200S,88
+Los Angeles,Enduro 350,225
+Los Angeles,Enduro 450,168
+Los Angeles,Enduro 550,37
+Los Angeles,CRX500,122
+Los Angeles,CRS550,147
+Los Angeles,CRX600,126
+Los Angeles,CRX650,274
+Mexico,200S,53
+Mexico,300S,259
+Mexico,600S,80
+Mexico,626S,239
+Mexico,676S,76
+Mexico,676RS,33
+Mexico,900S,80
+Mexico,929S,30
+Mexico,996S,61
+Mexico,996RS,258
+Mexico,RoadStar,176
+Mexico,RoadLiner,226
+Mexico,Victory,168
+Mexico,Boulevard,159
+Mexico,KingTwin,270
+Mexico,MegaTwin,82
+Mexico,ST900,77
+Mexico,ST1200,164
+Mexico,ST1200R,152
+Mexico,Bandit 900,140
+Mexico,Bandit 1200,271
+Mexico,Bandit 1200S,120
+Mexico,Enduro 350,48
+Mexico,Enduro 450,122
+Mexico,Enduro 550,225
+Mexico,CRX500,186
+Mexico,CRS550,187
+Mexico,CRX600,64
+Mexico,CRX650,111
+Toledo,200S,42
+Toledo,300S,121
+Toledo,600S,242
+Toledo,626S,216
+Toledo,676S,103
+Toledo,676RS,263
+Toledo,900S,68
+Toledo,929S,74
+Toledo,996S,57
+Toledo,996RS,255
+Toledo,RoadStar,173
+Toledo,RoadLiner,212
+Toledo,Victory,48
+Toledo,Boulevard,126
+Toledo,KingTwin,263
+Toledo,MegaTwin,258
+Toledo,ST900,179
+Toledo,ST1200,95
+Toledo,ST1200R,216
+Toledo,Bandit 900,237
+Toledo,Bandit 1200,112
+Toledo,Bandit 1200S,112
+Toledo,Enduro 350,183
+Toledo,Enduro 450,118
+Toledo,Enduro 550,267
+Toledo,CRX500,195
+Toledo,CRS550,129
+Toledo,CRX600,143
+Toledo,CRX650,104
+Bucarest,200S,210
+Bucarest,300S,84
+Bucarest,600S,251
+Bucarest,626S,195
+Bucarest,676S,97
+Bucarest,676RS,152
+Bucarest,900S,214
+Bucarest,929S,267
+Bucarest,996S,44
+Bucarest,996RS,151
+Bucarest,RoadStar,150
+Bucarest,RoadLiner,65
+Bucarest,Victory,274
+Bucarest,Boulevard,173
+Bucarest,KingTwin,190
+Bucarest,MegaTwin,163
+Bucarest,ST900,216
+Bucarest,ST1200,204
+Bucarest,ST1200R,207
+Bucarest,Bandit 900,268
+Bucarest,Bandit 1200,201
+Bucarest,Bandit 1200S,40
+Bucarest,Enduro 350,221
+Bucarest,Enduro 450,223
+Bucarest,Enduro 550,193
+Bucarest,CRX500,126
+Bucarest,CRS550,66
+Bucarest,CRX600,241
+Bucarest,CRX650,218
+Shanghai,200S,129
+Shanghai,300S,119
+Shanghai,600S,113
+Shanghai,626S,265
+Shanghai,676S,196
+Shanghai,676RS,36
+Shanghai,900S,227
+Shanghai,929S,118
+Shanghai,996S,31
+Shanghai,996RS,114
+Shanghai,RoadStar,69
+Shanghai,RoadLiner,31
+Shanghai,Victory,211
+Shanghai,Boulevard,168
+Shanghai,KingTwin,146
+Shanghai,MegaTwin,102
+Shanghai,ST900,229
+Shanghai,ST1200,58
+Shanghai,ST1200R,105
+Shanghai,Bandit 900,188
+Shanghai,Bandit 1200,70
+Shanghai,Bandit 1200S,240
+Shanghai,Enduro 350,117
+Shanghai,Enduro 450,169
+Shanghai,Enduro 550,154
+Shanghai,CRX500,266
+Shanghai,CRS550,261
+Shanghai,CRX600,117
+Shanghai,CRX650,72
