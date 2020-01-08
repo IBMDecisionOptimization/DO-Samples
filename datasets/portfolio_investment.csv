@@ -1,3 +1,4 @@
+id,expected return,recommendation,country,industry,index,stock price,expected return amount
 Invest0,1.00125,Strong Sell,FR,Utilities,0,161.15,161.3514375
 Invest1,1.56359,Buy,IT,Utilities,1,83.46,130.4972214
 Invest2,1.1933,Neutral,DE,Chemicals,2,24.38,29.092654
