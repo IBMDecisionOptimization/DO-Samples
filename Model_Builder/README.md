@@ -16,6 +16,7 @@ The `Cloud Pak for Data v3.0.x` directory contains `.zip` files for the samples 
 The `Cloud Pak for Data v3.5.x` directory contains `.zip` files for the samples that can be used with IBM Cloud Pak for Data V3.5.x.
 
 The `Cloud Pak for Data v4.0.x` directory contains `.zip` files for the samples that can be used with IBM Cloud Pak for Data V4.0.x.
+(TalentCPO and DietLP samples can only be used with Cloud Pak for Data v4.0.3 or later.)
 
 The `Watson Studio Public` directory contains `.zip` files for the samples that can be used with IBM Watson Studio and Watson Machine Learning on IBM Cloud.
 
