@@ -35,20 +35,21 @@ The following table lists the Decision Optimization samples that are provided in
 
 | Name | Problem type | Model Type |
 |------|--------------|------------|
-|Diet|Blending|Python|
-|DietLP |Blending |	LP (CPLEX)|
-|StaffPlanning |	Multi-Scenario Planning (to be used with CopyAndSolveScenarios.ipynb) |	Python|
-|BridgeScheduling |	Scheduling 	|Modeling Assistant|
-|HouseConstructionScheduling |	Scheduling with assignment| 	Modeling Assistant|
-|MarketingCampaignAssignment |	Resource Assignment (Scenarios 1 - 4)|Modeling Assistant|
-|MarketingCampaignAssignment 	|Selection and Allocation (Scenario 4 - Selection)|Modeling Assistant|
-|PortfolioAllocation 	|Selection & Allocation 	|Modeling Assistant|
-|ShiftAssignment |	Resource Assignment with custom decisions |	Modeling Assistant|
-|SupplyDemandPlanning |	Supply & Demand Planning |	Modeling Assistant|
-|PastaProduction 	|Production |	OPL|
-|PythonEngineSettings 	|Geometrical problem with customized engine settings |	Python|
-|Multifiles |	Using a model with multiple files| 	Python and LP|
-|TalentCP|	Movie scheduling |	CPO (CP Optimizer)|
+| BridgeScheduling | Scheduling | Modeling Assistant |
+| Diet | Blending | Python |
+| DietLP | Blending | LP (CPLEX) |
+| EnvironmentAndExtension | Using an environment with an extension that contains a library file and YAML code. | Python |
+| HouseConstructionScheduling | Scheduling with assignment | Modeling Assistant |
+| MarketingCampaignAssignment | Resource Assignment (Scenarios 1 - 4) | Modeling Assistant |
+| MarketingCampaignAssignment | Selection and Allocation (Scenario 4 - Selection) | Modeling Assistant |
+| Multifiles | Using a model with multiple files | Python and LP |
+| PastaProduction | Production | OPL |
+| PortfolioAllocation | Selection & Allocation | Modeling Assistant |
+| PythonEngineSettings | Geometrical problem with customized engine settings | Python |
+| ShiftAssignment | Resource Assignment with custom decisions and a custom constraint | Modeling Assistant |
+| StaffPlanning | Multi-Scenario Planning (to be used with CopyAndSolveScenarios.ipynb) | Python |
+| SupplyDemandPlanning | Supply & Demand Planning | Modeling Assistant |
+| TalentCPO | Movie scheduling | CPO (CP Optimizer) |
 
 
 
