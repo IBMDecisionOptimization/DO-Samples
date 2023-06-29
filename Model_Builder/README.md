@@ -1,7 +1,7 @@
 # Model Builder Samples
 This repository contains Decision Optimization samples that you can use in the Model Builder user interface in:
 - IBM Watson Studio and Watson Machine Learning on IBM Cloud
-- IBM Cloud Pak for Data V2.5.x, V3.0.x, V3.5.x, V4.0.x, V4.5.x and V4.6.x
+- IBM Cloud Pak for Data V2.5.x, V3.0.x, V3.5.x, V4.0.x, V4.5.x, V4.6.x and V4.7.x
 - IBM Watson Studio Local V2.1
 
 For details on **how to use these samples**, refer to the *Examples and Samples* section of the Decision Optimization Building models documentation for your product.
@@ -21,6 +21,8 @@ The `Cloud Pak for Data v4.0.x` directory contains `.zip` files for the samples 
 The `Cloud Pak for Data v4.5.x` directory contains `.zip` files for the samples that can be used with IBM Cloud Pak for Data V4.5.x.
 
 The `Cloud Pak for Data v4.6.x` directory contains `.ipynb` files for the samples that can be used with IBM Cloud Pak for Data V4.6.x.
+
+The `Cloud Pak for Data v4.7.x` directory contains `.ipynb` files for the samples that can be used with IBM Cloud Pak for Data V4.7.x.
 
 The `Watson Studio Public` directory contains `.zip` files for the samples that can be used with IBM Watson Studio and Watson Machine Learning on IBM Cloud.
 
@@ -44,6 +46,7 @@ The following table lists the Decision Optimization samples that are provided in
 |ShiftAssignment |	Resource Assignment with custom decisions |	Modeling Assistant|
 |SupplyDemandPlanning |	Supply & Demand Planning |	Modeling Assistant|
 |PastaProduction 	|Production |	OPL|
+|PythonEngineSettings 	|Geometrical problem with customized engine settings |	Python|
 |Multifiles |	Using a model with multiple files| 	Python and LP|
 |TalentCP|	Movie scheduling |	CPO (CP Optimizer)|
 
