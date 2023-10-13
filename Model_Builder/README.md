@@ -36,6 +36,7 @@ The following table lists the Decision Optimization samples that are provided in
 | DietLP | Blending | LP (CPLEX) |
 | EnvironmentAndExtension | Using an environment with an extension that contains a library file and YAML code. | Python |
 | HouseConstructionScheduling | Scheduling with assignment | Modeling Assistant |
+| IntermediateSolutions | Enabling intermediate solutions for CPLEX and CPO models  | Python |
 | MarketingCampaignAssignment | Resource Assignment (Scenarios 1 - 4) | Modeling Assistant |
 | MarketingCampaignAssignment | Selection and Allocation (Scenario 4 - Selection) | Modeling Assistant |
 | Multifiles | Using a model with multiple files | Python and LP |
