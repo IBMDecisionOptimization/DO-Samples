@@ -1,7 +1,7 @@
 # DO-Samples
 This repository contains Decision Optimization samples that you can use in:
 - IBM watsonx.ai and IBM Cloud Pak for Data as a Service
-- IBM Cloud Pak for Data V4.7.x, V4.6.x, V4.5.x and V4.0.x
+- IBM Cloud Pak for Data V4.8.x, V4.7.x, V4.6.x, V4.5.x and V4.0.x
 - IBM Cloud Pak for Data (previous unsupported versions) V3.5.x, V3.0.x and V2.5.x
 
 For details on how to use these samples, refer to the *Examples and Samples* section of the Decision Optimization documentation for your product.
